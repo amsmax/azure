@@ -16,7 +16,7 @@ public class MyController {
     public Map hello() {
         log.info("hello johannes");
         log.debug("hello liesbeth");
-        return Collections.singletonMap("message", "hello springboot from johannes");
+        return Collections.singletonMap("message", "hello springboot from johannes xx");
     }
 
     @ExceptionHandler(Exception.class)
